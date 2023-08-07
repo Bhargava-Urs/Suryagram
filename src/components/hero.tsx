@@ -93,32 +93,32 @@ const Hero = () => {
                 width={0}
                 className="h-[512px] w-[512px]"
               />
-              <div className="w-[900px] p-10">
+              <div className="w-[900px] p-5">
                 <h1 className="font-bold text-[40px] flex justify-center border-b-2 border-white">
                   {item.mainHeading}
                 </h1>
                 <h2 className="text-[#3C5606] font-semibold text-[32px] text-justify">
                   {item.q1}
                 </h2>
-                <h2 className="font-semibold text-[20px] text-justify">
+                <h2 className="font-semibold text-[16px] text-justify">
                   {item.a1}
                 </h2>
                 <h2 className="text-[#3C5606] font-semibold text-[32px] text-justify">
                   {item.q2}
                 </h2>
-                <h2 className="font-semibold text-[20px] text-justify">
+                <h2 className="font-semibold text-[16px] text-justify">
                   {item.a2}
                 </h2>
                 <h2 className="text-[#3C5606] font-semibold text-[32px]">
                   {item.q3}
                 </h2>
-                <h2 className="font-semibold text-[20px] text-justify">
+                <h2 className="font-semibold text-[16px] text-justify">
                   {item.a3}
                 </h2>
                 <h2 className="text-[#3C5606] font-semibold text-[32px] text-justify">
                   {item.q4}
                 </h2>
-                <h2 className="font-semibold text-[20px] text-justify">
+                <h2 className="font-semibold text-[16px] text-justify">
                   {item.a4}
                 </h2>
               </div>

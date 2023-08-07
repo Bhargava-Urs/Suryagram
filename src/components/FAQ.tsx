@@ -31,7 +31,7 @@ const FAQ = () => {
   ];
 
   return (
-    <div>
+    <div id='FAQ'>
       <h1 className="border-b-2 border-[#FFD708] font-semibold text-[40px] inline-block m-5">
         Frequently Asked Questions
       </h1>

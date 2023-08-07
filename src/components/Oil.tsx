@@ -8,7 +8,7 @@ const Oil = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1280);
+      setIsMobile(window.innerWidth <= 1200);
     };
 
     handleResize();
@@ -46,36 +46,16 @@ const Oil = () => {
             />
             <div>
               <h1 className="text-[24px] text-justify">
-                <span className="text-[28px] font-semibold mx-auto ">
-                  Nutrient Absorption:
-                </span>
-                Get the most out of your meals with oil. It aids in the
-                absorption of essential fat-soluble vitamins, ensuring your body
-                benefits from the full range of nutrients.
+ The main function of fats in the body is to provide energy By supplying energy, fats save proteins from being used for energy. Fats on oxidation provide almost twice as much energy as that given by carbohydrates.
               </h1>
               <h1 className="text-[24px] text-justify">
-                <span className="text-[28px] font-semibold mx-auto ">
-                  Flavor Boost:
-                </span>
-                Oil enhances the flavor of your favorite dishes, allowing herbs,
-                spices, and ingredients to shine and creating a delightful taste
-                experience.
+                Fat helps the body absorb vitamin A, vitamin D and vitamin E. These vitamins are fat-soluble, which means they can only be absorbed with the help of fats.
               </h1>
               <h1 className="text-[24px] text-justify">
-                <span className="text-[28px] font-semibold mx-auto ">
-                  Perfect Texture:
-                </span>
-                Oil adds richness, smoothness, and creaminess to sauces,
-                dressings, and baked goods, ensuring a delectable texture in
-                every bite.
+                Fat is a source of essential fatty acids, which the body cannot make itself.
               </h1>
               <h1 className="text-[24px] text-justify">
-                <span className="text-[28px] font-semibold mx-auto ">
-                  Even Cooking:
-                </span>
-                Oil&apos;s have excellent heat transfer properties ensure efficient
-                and even cooking, preventing burning or sticking, and helping
-                you achieve perfectly cooked meals every time.
+                Fat enhances texture, taste and flavour of the food, reduces it gastric emptying time and thereby affects satiety
               </h1>
             </div>
           </div>

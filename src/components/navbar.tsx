@@ -20,7 +20,7 @@ const Navbar = () => {
             <Image
               src={Logo}
               alt=""
-              className="h-44 w-44"
+              className="h-20 w-20"
               height={0}
               width={0}
             />
@@ -35,21 +35,21 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            href="#Testimonials"
+            href="#Process"
             className={
               'mx-5 my-2 lg:my-0  font-Oswald  text-[20px] p-1 bg-transparent rounded hover:text-yellow-300'
             }>
             Our Process
           </Link>
           <Link
-            href="#Testimonials"
+            href="#Products"
             className={
               'mx-5 my-2 lg:my-0  font-Oswald  text-[20px] p-1 bg-transparent rounded hover:text-yellow-300'
             }>
             Our Products
           </Link>
           <Link
-            href=""
+            href="#FAQ"
             className={
               'mx-5 my-2 lg:my-0  font-Oswald  text-[20px] p-1 bg-transparent rounded hover:text-yellow-300'
             }>
@@ -74,7 +74,7 @@ const Navbar = () => {
             {isOpen && (
               <div className="absolute right-0 mt-2 py-2 w-48 bg-white rounded-lg shadow-xl z-20">
                 <Link
-                  href="#Testimonials"
+                  href="/"
                   className={
                     'mx-5 my-2 lg:my-0  font-Oswald  text-[20px] p-1 bg-transparent rounded hover:text-yellow-300'
                   }>
@@ -82,21 +82,21 @@ const Navbar = () => {
                 </Link>
 
                 <Link
-                  href="#Testimonials"
+                  href="#Process"
                   className={
                     'mx-5 my-2 lg:my-0  font-Oswald  text-[20px] p-1 bg-transparent rounded hover:text-yellow-300'
                   }>
                   Our Process
                 </Link>
                 <Link
-                  href="#Testimonials"
+                  href="#Products"
                   className={
                     'mx-5 my-2 lg:my-0  font-Oswald  text-[20px] p-1 bg-transparent rounded hover:text-yellow-300'
                   }>
                   Our Products
                 </Link>
                 <Link
-                  href="#Testimonials"
+                  href="#FAQ"
                   className={
                     'mx-5 my-2 lg:my-0  font-Oswald  text-[20px] p-1 bg-transparent rounded hover:text-yellow-300'
                   }>
@@ -105,7 +105,7 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="#footer">
+          <Link href="#Contact">
             <button className="hidden lg:block px-2 py-1 mr-2 bg-yellow-300 whitespace-nowrap  rounded text-white font-Oswald font-semibold text-[20px] hover:text-yellow-300 hover:bg-white hover:border-2 hover:border-yellow-300">
               Contact Us
             </button>

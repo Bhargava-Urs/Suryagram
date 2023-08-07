@@ -9,7 +9,7 @@ const Fats = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1280);
+      setIsMobile(window.innerWidth <= 1200);
     };
 
     handleResize();
