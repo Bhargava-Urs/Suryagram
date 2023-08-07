@@ -24,14 +24,15 @@ const History = () => {
       {!isMobile ? (
         <div className="flex items-center justify-around">
           <p className="w-[800px] text-justify text-[20px]">
-            Ghani oil, also known as "Kolhu" or "Chekku" oil, has a long and
-            storied history in India, dating back thousands of years. Ghani
-            refers to the traditional wooden oil extraction device used to crush
-            oilseeds and extract oil. This ancient method has been an integral
-            part of India's cultural heritage and culinary traditions. The Ghani
-            process involves using a pair of wooden rollers to crush oilseeds
-            like sesame, groundnut, coconut, or mustard, and the oil is then
-            collected through the pores of the wooden vessel.
+            Ghani oil, also known as &quot;Kolhu&quot; or &quot;Chekku&quot;
+            oil, has a long and storied history in India, dating back thousands
+            of years. Ghani refers to the traditional wooden oil extraction
+            device used to crush oilseeds and extract oil. This ancient method
+            has been an integral part of India&quot;s cultural heritage and
+            culinary traditions. The Ghani process involves using a pair of
+            wooden rollers to crush oilseeds like sesame, groundnut, coconut, or
+            mustard, and the oil is then collected through the pores of the
+            wooden vessel.
           </p>
           <Image
             src={g2}
@@ -51,14 +52,15 @@ const History = () => {
             className="h-[300px] w-[300px]"
           />
           <p className="mx-auto text-justify text-[20px] p-5">
-            Ghani oil, also known as "Kolhu" or "Chekku" oil, has a long and
-            storied history in India, dating back thousands of years. Ghani
-            refers to the traditional wooden oil extraction device used to crush
-            oilseeds and extract oil. This ancient method has been an integral
-            part of India's cultural heritage and culinary traditions. The Ghani
-            process involves using a pair of wooden rollers to crush oilseeds
-            like sesame, groundnut, coconut, or mustard, and the oil is then
-            collected through the pores of the wooden vessel.
+            Ghani oil, also known as &quot;Kolhu&quot; or &quot;Chekku&quot;
+            oil, has a long and storied history in India, dating back thousands
+            of years. Ghani refers to the traditional wooden oil extraction
+            device used to crush oilseeds and extract oil. This ancient method
+            has been an integral part of India&quot;s cultural heritage and
+            culinary traditions. The Ghani process involves using a pair of
+            wooden rollers to crush oilseeds like sesame, groundnut, coconut, or
+            mustard, and the oil is then collected through the pores of the
+            wooden vessel.
           </p>
         </div>
       )}
@@ -114,7 +116,7 @@ const History = () => {
             to a niche market seeking natural and authentic oils. Today, Ghani
             oil is witnessing a renaissance, as consumers appreciate its
             traditional appeal, nutritional value, and cultural significance in
-            India's culinary landscape.
+            India&apos;s culinary landscape.
           </p>
           <Image
             src={g1}
@@ -144,7 +146,7 @@ const History = () => {
             to a niche market seeking natural and authentic oils. Today, Ghani
             oil is witnessing a renaissance, as consumers appreciate its
             traditional appeal, nutritional value, and cultural significance in
-            India's culinary landscape.
+            India&apos;s culinary landscape.
           </p>
         </div>
       )}

@@ -167,7 +167,7 @@ const Process = () => {
                 className={`flex flex-col items-center justify-center p-5 ${
                   index === carouselIndex ? 'opacity-100' : 'opacity-0 absolute'
                 } transition-opacity duration-500`}>
-                <h1 className="font-bold text-[20px]">Suryagram's Oil</h1>
+                <h1 className="font-bold text-[20px]">Suryagram&apos;s Oil</h1>
                 <Image
                   src={item.img}
                   alt=""
@@ -212,7 +212,7 @@ const Process = () => {
                 className={`flex flex-col items-center justify-center p-5 ${
                   index === carouselIndex ? 'opacity-100' : 'opacity-0 absolute'
                 } transition-opacity duration-500`}>
-                <h1 className="font-bold text-[20px]">Suryagram's Oil</h1>
+                <h1 className="font-bold text-[20px]">Suryagram&apos;s Oil</h1>
                 <Image
                   src={item.img}
                   alt=""

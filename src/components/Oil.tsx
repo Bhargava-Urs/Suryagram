@@ -73,7 +73,7 @@ const Oil = () => {
                 <span className="text-[28px] font-semibold mx-auto ">
                   Even Cooking:
                 </span>
-                Oil's have excellent heat transfer properties ensure efficient
+                Oil&apos;s have excellent heat transfer properties ensure efficient
                 and even cooking, preventing burning or sticking, and helping
                 you achieve perfectly cooked meals every time.
               </h1>
