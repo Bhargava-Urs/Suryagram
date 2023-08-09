@@ -31,7 +31,7 @@ const Ghani = () => {
             width={0}
             className="h-52 w-52"
           />
-          <Image
+          <Image 
             src={g2}
             alt="img"
             height={0}

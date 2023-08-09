@@ -9,23 +9,59 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: 'Question 1',
+      question: 'What is the difference between bull driven mill oil and so called Cold/Wood pressed oils?',
       answer: 'Answer to question 1 goes here.',
     },
     {
-      question: 'Question 2',
+      question: 'Which oil suits me?',
       answer: 'Answer to question 2 goes here.',
     },
     {
-      question: 'Question 3',
+      question: 'Why should we use different oils?',
       answer: 'Answer to question 3 goes here.',
     },
     {
-      question: 'Question 4',
+      question: 'How often should I change my oil?',
       answer: 'Answer to question 4 goes here.',
     },
     {
-      question: 'Question 5',
+      question: 'How can I differentiate between good oil and bad oil?',
+      answer: 'Answer to question 5 goes here.',
+    },
+    {
+      question: 'Which oil is good for deep frying?',
+      answer: 'Answer to question 5 goes here.',
+    },
+    {
+      question: 'Which oil has high smoking?',
+      answer: 'Answer to question 5 goes here.',
+    },
+    {
+      question: 'Are Suryagram oils organic?',
+      answer: 'Answer to question 5 goes here.',
+    },
+    {
+      question: 'Why dark brown colour glass bottles?',
+      answer: 'Answer to question 5 goes here.',
+    },
+    {
+      question: 'Why oil is not sold in Kilograms?',
+      answer: 'Answer to question 5 goes here.',
+    },
+    {
+      question: 'What is the shelf life of Suryagram Oils?',
+      answer: 'Answer to question 5 goes here.',
+    },
+    {
+      question: 'How should I store oil in kitchen?',
+      answer: 'Answer to question 5 goes here.',
+    },
+    {
+      question: 'Can we reuse oil which was used for deep frying?',
+      answer: 'Answer to question 5 goes here.',
+    },
+    {
+      question: 'Which is oil is best for cooking?',
       answer: 'Answer to question 5 goes here.',
     },
   ];
