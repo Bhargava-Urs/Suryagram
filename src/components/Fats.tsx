@@ -17,13 +17,28 @@ const Fats = () => {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
+  useEffect(() => {
+    // Get the heading element by ID
+    const heading = document.getElementById('dynamic-heading');
+
+    // Check if the heading element exists
+    if (heading) {
+      const text = heading.innerText;
+      const textLength = text.length;
+      const borderWidth = textLength * 0.1; // Adjust this multiplier to control the border length
+      heading.style.borderBottomWidth = `${borderWidth}px`;
+    }
+  }, []);
   return (
     <div>
       {!isMobile ? (
         <div>
-          <h1 className="border-b-2 border-[#FFD708] font-semibold text-[40px] inline-block m-5">
-            What do we get in general from oil?
-          </h1>
+           <h1
+      id="dynamic-heading"
+      className="border-b-2 border-[#FFD708] font-semibold text-[40px] inline-block m-5"
+    >
+      What do we get in general from oil?
+    </h1>
           <Image
             src={fats}
             alt=""
@@ -34,7 +49,7 @@ const Fats = () => {
         </div>
       ) : (
         <div className="flex flex-col items-center justify-center">
-          <h1 className="border-b-2 border-[#FFD708] font-semibold text-[40px] inline-block m-5">
+          <h1 className="border-b-2 border-[#FFD708] font-semibold text-[20px] inline-block m-5">
             What do we get in general from oil?
           </h1>
           <div className="flex flex-col items-center justify-center p-5">

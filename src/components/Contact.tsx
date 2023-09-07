@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Logo from '../../public/Images/logo.jpg';
+import Logo from '../../public/Images/logo.png';
 import call from '../../public/Images/call.png';
 import mail from '../../public/Images/mail.png';
 import {useState, useEffect} from 'react';
@@ -44,7 +44,7 @@ const ContactForm = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
   return (
-    <div className="mt-16">
+    <div className="mt-16" id='Contact'>
       {!isMobile ? (
         <div className="flex items-center justify-evenly">
           <div className="max-w-lg  mt-8 p-4 border rounded-md shadow-md">

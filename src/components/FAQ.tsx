@@ -71,7 +71,7 @@ const FAQ = () => {
       <h1 className="border-b-2 border-[#FFD708] font-semibold text-[40px] inline-block m-5">
         Frequently Asked Questions
       </h1>
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto p-5">
         {faqData.map((item, index) => (
           <div key={index} className="border-b py-4">
             <button

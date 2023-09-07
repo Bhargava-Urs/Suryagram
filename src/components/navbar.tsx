@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '../../public/Images/logo.jpg';
+import Logo from '../../public/Images/logo.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -20,9 +20,9 @@ const Navbar = () => {
             <Image
               src={Logo}
               alt=""
-              className="h-20 w-20"
-              height={0}
-              width={0}
+              // className="h-22 w-20"
+              height={150}
+              width={150}
             />
           </Link>
         </div>

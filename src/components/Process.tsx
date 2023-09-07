@@ -84,7 +84,7 @@ const Process = () => {
   return (
     <div id='Process'>
       <div>
-        <h1 className="border-b-2 border-[#FFD708] font-semibold text-[40px] inline-block m-5">
+        <h1 className="border-b-2 border-[#FFD708] font-semibold text-[20px] md:text-[40px] inline-block m-5">
           How are we helping with this?
         </h1>
       </div>

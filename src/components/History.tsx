@@ -18,7 +18,7 @@ const History = () => {
   }, []);
   return (
     <div>
-      <h1 className="border-b-2 border-[#FFD708] font-semibold text-[40px] inline-block m-5">
+      <h1 className="border-b-2 border-[#FFD708] font-semibold text-[20px] md:text-[40px] inline-block m-5">
         History of Ghani Bull Driven Oil
       </h1>
       {!isMobile ? (

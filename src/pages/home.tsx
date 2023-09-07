@@ -10,7 +10,7 @@ import FAQ from '@components/FAQ';
 import Products from '@components/Products';
 import ContactForm from '@components/Contact';
 import { useEffect,useState } from 'react';
-import logo from '../../public/Images/logo.jpg';
+import logo from '../../public/Images/logo.png';
 import Image from 'next/image';
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -62,7 +62,6 @@ export default function Home() {
       ) : (
         <>
       <Navbar />
-      <Hero />
       <Oil />
       <Fats />
       <Ghani />

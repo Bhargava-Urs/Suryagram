@@ -19,9 +19,6 @@ const Ghani = () => {
   }, []);
   return (
     <div>
-      <h1 className="border-b-2 border-[#FFD708] font-semibold text-[40px] inline-block m-5">
-        Old Bull Driven Ghani Pictures
-      </h1>
       {!isMobile ? (
         <div className="flex items-center justify-evenly p-5">
           <Image
