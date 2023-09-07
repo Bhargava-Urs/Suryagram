@@ -33,12 +33,14 @@ const Fats = () => {
     <div>
       {!isMobile ? (
         <div>
+          <div className='flex items-center justify-center'>
            <h1
       id="dynamic-heading"
       className="border-b-2 border-[#FFD708] font-semibold text-[40px] inline-block m-5"
     >
       What do we get in general from oil?
     </h1>
+    </div>
           <Image
             src={fats}
             alt=""

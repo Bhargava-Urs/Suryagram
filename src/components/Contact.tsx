@@ -234,7 +234,7 @@ const ContactForm = () => {
               </button>
             </form>
           </div>
-          <div>
+          <div className='mt-10'>
             <h1 className="font-semibold text-[28px]">Site Map</h1>
             <p className="text-[20px]">-Home</p>
             <p className="text-[20px]">-About Us</p>

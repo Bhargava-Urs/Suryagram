@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import img1 from '../../public/Images/1.jpg';
-import img2 from '../../public/Images/2.jpg';
-import img3 from '../../public/Images/3.jpg';
-import img4 from '../../public/Images/4.jpg';
+import img1 from '../../public/Images/1.png';
+import img2 from '../../public/Images/2.png';
+import img3 from '../../public/Images/3.png';
+import img4 from '../../public/Images/4.png';
 const Products = () => {
   return (
     <div id='Products'>
@@ -11,11 +11,11 @@ const Products = () => {
       </h1>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4 flex items-center justify-center">
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <Image
-                  className="lg:h-48 md:h-36 w-full object-cover object-center"
+                  className="h-[300px] w-full  object-center"
                   src={img1}
                   height={0}
                   width={0}
@@ -34,7 +34,7 @@ const Products = () => {
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <Image
-                  className="lg:h-48 md:h-36 w-full object-cover object-center"
+                  className="h-[300px] w-full  object-center"
                   src={img2}
                   height={0}
                   width={0}
@@ -53,7 +53,7 @@ const Products = () => {
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <Image
-                  className="lg:h-48 md:h-36 w-full object-cover object-center"
+                  className="h-[300px] w-full  object-center"
                   src={img3}
                   height={0}
                   width={0}
@@ -72,7 +72,7 @@ const Products = () => {
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <Image
-                  className="lg:h-48 md:h-36 w-full object-cover object-center"
+                  className="h-[300px] w-full  object-center"
                   src={img4}
                   height={0}
                   width={0}

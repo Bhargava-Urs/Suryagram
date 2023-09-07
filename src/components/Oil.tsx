@@ -32,9 +32,11 @@ const Oil = () => {
     <div>
       {!isMobile ? (
         <div>
+          <div className='flex items-center justify-center'>
           <h1   id="dynamic-heading" className="border-b-2 border-[#FFD708]   font-semibold text-[40px] inline-block m-5">
             Why are Oil/fats essential for us?
           </h1>
+          </div>
           <Image
             src={oil}
             alt=""
