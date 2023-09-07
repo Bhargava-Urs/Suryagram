@@ -1,5 +1,4 @@
 import Navbar from '@components/navbar';
-import Hero from '@components/hero';
 import Fats from '@components/Fats';
 import React from 'react';
 import Oil from '@components/Oil';
